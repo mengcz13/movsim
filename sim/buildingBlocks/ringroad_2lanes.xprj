@@ -29,6 +29,17 @@
                 <VehicleType label="SLOW_TYPE" fraction="0.2" />
             </TrafficComposition>
         </Simulation>
+        <Routes>
+            <Route label="main">
+                <Road id="1" />
+            </Route>
+        </Routes>
+        <OutputConfiguration>
+            <Trajectories dt="1" route="main" />
+            <!-- fuel consumption is quite expensive -->
+        <!-- <ConsumptionCalculation route="main" tauEMA="30" /> -->
+        <!-- <ConsumptionCalculation route="onramp" /> -->
+        </OutputConfiguration>
     </Scenario>
 </Movsim>
 
