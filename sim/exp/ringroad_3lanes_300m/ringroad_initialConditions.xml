@@ -3,7 +3,8 @@
     <RoadInitialConditions id="1">
         <MacroscopicInitialConditions>
             <!-- critical density for emerging stop-and-go wave about >= 33 vehicles per km per lane -->
-            <MacroCondition position="1" density_per_km="30" speed="20" />
+            <!-- MacroCondition position="1" density_per_km="30" speed="20" / -->
+            <MacroCondition position="1" density_per_km="20" speed="20" />
         </MacroscopicInitialConditions>
     </RoadInitialConditions>
 </MovsimInitialConditions>
