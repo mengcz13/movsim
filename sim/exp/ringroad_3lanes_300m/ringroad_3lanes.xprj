@@ -4,7 +4,7 @@
 <Movsim>
     <VehiclePrototypes>
         <!-- fast vehicle type (car) -->
-        <VehiclePrototypeConfiguration label="FAST_TYPE" length="6" maximum_deceleration="9">
+        <VehiclePrototypeConfiguration label="FAST_TYPE" length="12" maximum_deceleration="9">
             <AccelerationModelType>
                 <ModelParameterIDM v0="35" T="1" s0="3" s1="0" delta="4" a="0.7" b="3.0" />
             </AccelerationModelType>
@@ -13,7 +13,7 @@
             </LaneChangeModelType>
         </VehiclePrototypeConfiguration>
         <!-- slow vehicle type (truck) -->
-        <VehiclePrototypeConfiguration label="SLOW_TYPE" length="15" maximum_deceleration="9">
+        <VehiclePrototypeConfiguration label="SLOW_TYPE" length="30" maximum_deceleration="9">
             <AccelerationModelType>
                 <ModelParameterIDM v0="25" T="1.2" s0="3" s1="0" delta="4" a="0.5" b="3.0" />
             </AccelerationModelType>
